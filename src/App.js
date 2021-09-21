@@ -17,13 +17,13 @@ function App() {
       <Navbar/>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/entretenimiento" component={Entertainment} />
-        <Route exact path="/deporte" component={Sport} />
-        <Route exact path="/cusco" component={Cusco} />
-        <Route exact path="/salud" component={Health} />
-        <Route exact path="/economia" component={Economy} />
-        <Route exact path="/politica" component={Politics} />
-        <Route exact path="/espectaculos" component={Shows} />
+        <Route path="/entretenimiento" component={Entertainment} />
+        <Route path="/deporte" component={Sport} />
+        <Route path="/cusco" component={Cusco} />
+        <Route path="/salud" component={Health} />
+        <Route path="/economia" component={Economy} />
+        <Route path="/politica" component={Politics} />
+        <Route path="/espectaculos" component={Shows} />
       </Switch>
       <Footer/>
     </Router>
